@@ -3,7 +3,7 @@ name: Generate Sample List
 on:
   push:
     branches:
-      - main  # or any branch you want to target
+      - master  # or any branch you want to target
 
 jobs:
   generate_file_list:
