@@ -5,7 +5,7 @@ def generate_file_list():
     file_dict = {}
     count = 0
 
-    # Walk through all the files in the repository directory
+    # Walk through all the files in the repository directory.
     for root, dirs, files in os.walk("."):
         for file in files:
             # Skip hidden files or Git files
