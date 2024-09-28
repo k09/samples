@@ -8,8 +8,8 @@ def generate_file_list():
     # Walk through all the files in the repository directory.
     for root, dirs, files in os.walk("."):
         for file in files:
-            # Skip hidden files or Git files
-            if file.startswith('.') or '.git' in root:
+            # Skip hidden files or Git files or Python files
+            if file.startswith('.') or '.git' in root or file.endswith(".py"):
                 continue
             file_dict[f"s{str(count).zfill(3)}"] = file
             count += 1
