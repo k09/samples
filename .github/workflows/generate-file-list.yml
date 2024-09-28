@@ -26,8 +26,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add file_list.json
+        git config --local user.email "kristjan.kristmannsson@gmail.com"
+        git config --local user.name "k09"
+        git add strudel.json
         git commit -m "Update file list"
         git push
