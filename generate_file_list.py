@@ -11,6 +11,7 @@ def generate_file_list():
             count += 1
     #json_str = "samples: {\n"
     json_str = "{\n"
+    json_str += "_base: \"https://raw.githubusercontent.com/k09/samples/master/\",\n"
     for key, value in file_dict.items():
         json_str += f"    {key}: '{value}',\n"
     json_str = json_str.rstrip(",\n") + "\n}"
