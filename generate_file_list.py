@@ -1,5 +1,4 @@
 import os
-import json
 
 def generate_file_list():
     file_dict = {}
@@ -10,7 +9,8 @@ def generate_file_list():
                 continue
             file_dict[f"s{str(count).zfill(3)}"] = file
             count += 1
-    json_str = "samples: {\n"
+    #json_str = "samples: {\n"
+    json_str = "{\n"
     for key, value in file_dict.items():
         json_str += f"    {key}: '{value}',\n"
     json_str = json_str.rstrip(",\n") + "\n}"
