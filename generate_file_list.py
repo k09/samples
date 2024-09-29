@@ -15,8 +15,9 @@ def generate_file_list():
             count += 1
 
     # Write the file list to a JSON file
+    wrapped_dict = {"samples": file_dict}
     with open("strudel.json", "w") as f:
-        json.dump(file_dict, f, indent=4)
+        json.dump(wrapped_dict, f, indent=4)
 
 if __name__ == "__main__":
     generate_file_list()
