@@ -1,3 +1,29 @@
-{
-    "samples": "{\n    's000': 'Blankalogn-2.wav',\n    's001': 'BaraThadBesta-3.wav',\n    's002': 'LitidEittHaarKyrrd.wav',\n    's003': 'Afsakid1.wav',\n    's004': 'Hljomar-4.wav',\n    's005': 'StereoPerspectiveInPercussion7.wav',\n    's006': 'MedBlikIAuga.wav',\n    's007': 'MogoHomo2.wav',\n    's008': 'SOS.wav',\n    's009': 'TakeMyHand2.wav',\n    's010': 'JudasJump.wav',\n    's011': 'Baldursbra.wav',\n    's012': 'GefduMerDraum2.wav',\n    's013': 'Sumarnott.wav',\n    's014': 'morgundagurinn05.wav',\n    's015': 'Kvoldkyrrd2.wav',\n    's016': 'Danslag3.wav',\n    's017': 'RokkOgChaChaCha-2.wav',\n    's018': 'ThinSvanhvit.wav',\n    's019': 'SvalaNott1.wav',\n    's020': 'OskirRaetast1.wav',\n    's021': 'KotturinnSemFerSinarEiginLeidir-6.wav',\n    's022': 'BaraThadBesta-8.wav',\n    's023': 'Orskotsstund.wav',\n    's024': 'StereoPerspectiveInPercussion20.wav',\n    's025': 'aevintyriUrNykurtjorn-5.wav',\n    's026': 'Ljarinn2.wav'\n}"
+"samples": {
+    s000: 'Blankalogn-2.wav',
+    s001: 'BaraThadBesta-3.wav',
+    s002: 'LitidEittHaarKyrrd.wav',
+    s003: 'Afsakid1.wav',
+    s004: 'Hljomar-4.wav',
+    s005: 'StereoPerspectiveInPercussion7.wav',
+    s006: 'MedBlikIAuga.wav',
+    s007: 'MogoHomo2.wav',
+    s008: 'SOS.wav',
+    s009: 'TakeMyHand2.wav',
+    s010: 'JudasJump.wav',
+    s011: 'Baldursbra.wav',
+    s012: 'GefduMerDraum2.wav',
+    s013: 'Sumarnott.wav',
+    s014: 'morgundagurinn05.wav',
+    s015: 'Kvoldkyrrd2.wav',
+    s016: 'Danslag3.wav',
+    s017: 'RokkOgChaChaCha-2.wav',
+    s018: 'ThinSvanhvit.wav',
+    s019: 'SvalaNott1.wav',
+    s020: 'OskirRaetast1.wav',
+    s021: 'KotturinnSemFerSinarEiginLeidir-6.wav',
+    s022: 'BaraThadBesta-8.wav',
+    s023: 'Orskotsstund.wav',
+    s024: 'StereoPerspectiveInPercussion20.wav',
+    s025: 'aevintyriUrNykurtjorn-5.wav',
+    s026: 'Ljarinn2.wav'
 }
