@@ -32,7 +32,7 @@ def generate_file_list():
     wrapped_dict = {"samples": json_str_custom}
     # Write to file
     with open("strudel.json", "w") as f:
-        f.write(wrapped_dict)
+        json.dump(wrapped_dict, f, indent=4)
 
 
 
