@@ -9,7 +9,7 @@ def generate_file_list():
         for file in files:
             if not file.endswith(('.wav', '.mp3')):
                 continue
-            file_dict[f"k09_{Path(file).stem}"] = [file]
+            file_dict[Path(file).stem] = [file]
     with open("strudel.json", "w") as f:
         json.dump(file_dict, f, indent=4)
 
