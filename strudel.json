@@ -1,5 +1,5 @@
 {
-_base: "https://raw.githubusercontent.com/k09/samples/master/",
+    _base: "https://raw.githubusercontent.com/k09/samples/master/",
     s000: 'Blankalogn-2.wav',
     s001: 'BaraThadBesta-3.wav',
     s002: 'LitidEittHaarKyrrd.wav',
