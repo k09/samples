@@ -12,7 +12,7 @@ def generate_file_list():
             # Check if file does not end with .wav or .mp3
             if not file.endswith(('.wav', '.mp3')):
                 continue
-            file_dict[f"k09-{Path(file).stem}]" = file
+            file_dict[f"k09-{Path(file).stem}" = file
 
     # Write the file list to a JSON file
     with open("strudel.json", "w") as f:
